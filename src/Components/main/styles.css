@@ -1,0 +1,13 @@
+.image-main {
+    animation: flutuar 3s ease-in-out infinite;
+    user-select: none;
+}
+
+@keyframes flutuar {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
