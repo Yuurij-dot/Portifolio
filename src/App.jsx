@@ -1,5 +1,6 @@
 import Header from "./Components/header"
 import Main from "./Components/main"
+import Skills from "./Components/Skills"
 
 export default function App(){
   return(
@@ -9,6 +10,7 @@ export default function App(){
 
       <Main></Main>
       
+      <Skills></Skills>
     </div>
   )
 }
