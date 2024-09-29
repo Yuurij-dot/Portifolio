@@ -1,5 +1,6 @@
 import ImageMain from '../../assets/main-image.png'
 import './styles.css'
+
 export default function Main(){
     return(
         <main className="w-full flex justify-between ">
@@ -13,9 +14,9 @@ export default function Main(){
                 </div>
 
                 <div className="flex mt-2">
-                    <a className="text-2xl hover:scale-110" href=""><i class="fa-brands fa-instagram text-slate-700 hover:text-red-500"></i></a>
-                    <a className="text-2xl hover:scale-110 mx-4" href=""><i class="fa-brands fa-github text-slate-700 hover:text-blue-500"></i></a>
-                    <a className="text-2xl hover:scale-110" href=""><i class="fa-brands fa-whatsapp text-slate-700 hover:text-green-500"></i></a>
+                    <a className="text-2xl hover:scale-110" href=""><i className="fa-brands fa-instagram text-slate-700 hover:text-red-500"></i></a>
+                    <a className="text-2xl hover:scale-110 mx-4" href=""><i className="fa-brands fa-github text-slate-700 hover:text-blue-500"></i></a>
+                    <a className="text-2xl hover:scale-110" href=""><i className="fa-brands fa-whatsapp text-slate-700 hover:text-green-500"></i></a>
                 </div>
             </div>
 

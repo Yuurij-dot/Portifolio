@@ -1,6 +1,7 @@
-import Header from "./Components/header"
-import Main from "./Components/main"
-import Skills from "./Components/Skills"
+import Header from "./Sections/header"
+import Main from "./Sections/main"
+import Skills from "./Sections/Skills"
+import { Portifolio } from "./Sections/portifolio"
 
 export default function App(){
   return(
@@ -11,6 +12,9 @@ export default function App(){
       <Main></Main>
       
       <Skills></Skills>
+
+      <Portifolio></Portifolio>
+
     </div>
   )
 }

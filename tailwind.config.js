@@ -6,6 +6,7 @@ export default {
   ],
   theme: {
     extend: {
+
       colors: {
         primary: {
           light: '#5f6bf1'
@@ -13,6 +14,11 @@ export default {
         whitePrimary: {
           light: '#fafbfd'
         }
+      },
+      backgroundImage: {
+        'AgeCalculator-Image': "url('./src/assets/agecalculator-project.jpg')",
+        'Form-Image': "url('./src/assets/form-project.jpg')",
+        'Count-Down-Image': "url('./src/assets/countdown-project.jpg')" 
       }
     },
   },
