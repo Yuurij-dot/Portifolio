@@ -7,8 +7,8 @@ export function Portifolio(){
         <section className="my-10"> 
             <Title titleName= "Projetos"/>
 
-            <div className="w-full flex items-center justify-center ">
-                <div className="grid grid-cols-3 gap-4">
+            <div className="mt-5 w-full flex items-center justify-center ">
+                <div className="grid grid-cols-3 gap-5 max-lg:grid-cols-2 max-sm:grid-cols-1">
                     <Project
                         projectHref= "https://age-calculator-bice-seven.vercel.app/"
                         background= "bg-AgeCalculator-Image bg-center bg-cover hover:brightness-95"

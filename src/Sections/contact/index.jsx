@@ -13,7 +13,7 @@ export function Contact() {
                 <div className="mt-5 w-1/3 border-b-4 border-slate-700"></div>
             </div>
 
-            <div className="p-6 gap-3 grid grid-cols-2 ">
+            <div className="p-6 gap-3 grid grid-cols-2 max-md:flex max-md:flex-col">
 
                 <InfoContact
                     icon="fa-regular fa-envelope text-primary-light"
@@ -24,7 +24,7 @@ export function Contact() {
                     information="(61) 99514-1289"
                 />
 
-                <div className="col-span-2 text-center">
+                <div className="col-span-2 text-center max-md:text-left">
                     <InfoContact
                         icon="fa-solid fa-location-dot font-bold text-primary-light"
                         information="Brasília-DF"

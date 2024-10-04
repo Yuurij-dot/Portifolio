@@ -9,13 +9,30 @@ header nav{
     justify-content: space-between;
 }
 
-header nav ul {
-    display: flex;
-}
-header nav ul li{
+
+header nav #ul-list li{
     margin-left: 40px;
 }
 header nav ul li a{
     font-size: 18px;
     font-weight: 500;
+}
+
+.bars-button{
+    display: none;
+}
+
+@media screen and (max-width: 700px){
+
+    .bars-button{
+        display: block;
+    }
+    #ul-list{
+        display: none;
+    }
+
+    .nav-bar{
+        display: flex;
+        align-items: start;
+    }
 }
